@@ -17,14 +17,6 @@
         </div>
 
         <div>
-            <x-input-label for="usertype" :value="__('Usertype')" />
-            <x-text-input id="usertype" class="block mt-1 w-full" type="text" 
-                name="usertype" :value="old('usertype')" 
-                required autofocus autocomplete="usertype" />
-            <x-input-error :messages="$errors->get('usertype')" class="mt-2" />
-        </div>
-
-        <div>
             <x-input-label for="phone_no" :value="__('Phone_no')" />
             <x-text-input id="phone_no" class="block mt-1 w-full" type="text" 
                 name="phone_no" :value="old('phone_no')" 
@@ -33,11 +25,11 @@
         </div>
 
         <div>
-            <x-input-label for="adderss" :value="__('Adderss')" />
-            <x-text-input id="adderss" class="block mt-1 w-full" type="text" 
-                name="adderss" :value="old('adderss')" 
-                required autofocus autocomplete="adderss" />
-            <x-input-error :messages="$errors->get('adderss')" class="mt-2" />
+            <x-input-label for="address" :value="__('Address')" />
+            <x-text-input id="address" class="block mt-1 w-full" type="text" 
+                name="address" :value="old('address')" 
+                required autofocus autocomplete="address" />
+            <x-input-error :messages="$errors->get('address')" class="mt-2" />
         </div>
 
         <!-- Password -->
